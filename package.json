@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@tauri-apps/api": "^1.1.0",
+    "pixi.js": "^7.0.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.57.1"
   },
   "devDependencies": {
+	"@types/pixi.js": "^5.0.0",
     "@tauri-apps/cli": "^1.1.0",
     "@types/node": "^18.7.10",
     "@types/react": "^18.0.15",
