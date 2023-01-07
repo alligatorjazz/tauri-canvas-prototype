@@ -1,0 +1,13 @@
+:root {
+	--bg-color: rgb(75, 75, 75);
+	--text-color: rgb(229, 229, 229);
+}
+
+* {
+	box-sizing: border-box;	
+}
+
+body {
+	color: var(--text-color);
+	background-color: var(--bg-color);
+}
