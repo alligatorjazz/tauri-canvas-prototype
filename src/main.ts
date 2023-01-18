@@ -31,6 +31,16 @@ grid.lineStyle({
 	alignment: 0.5
 });
 
-grid.moveTo(10, 0);
-grid.lineTo(10, root.clientHeight);
+for (let i = 0; i < 100; i++) {
+	const incrementX = root.clientWidth / 100;
+	const incrementY = root.clientHeight / 100;
+
+	grid.moveTo(i * incrementX, 0);
+	grid.lineTo(i * incrementX, root.clientHeight);
+
+	grid.moveTo(0, i * incrementY);
+	grid.lineTo(root.clientWidth, i * incrementY);
+}
+
+
 app.stage.addChild(grid);
